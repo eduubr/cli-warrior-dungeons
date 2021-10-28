@@ -7,7 +7,16 @@ edition = "2018"
 
 [dependencies]
 termsize = "0.1"
+rand = "0.8.0"
 
 [[example]]
 name = "termsize"
 path = "examples/term_size.rs"
+
+[[example]]
+name = "random"
+path = "examples/random_int.rs"
+
+[[example]]
+name = "run_logo"
+path = "examples/run_logo.rs"
